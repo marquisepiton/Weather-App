@@ -94,7 +94,7 @@ function displayCurrentWeather() {
     })
 
 }
-
+// Work in progress.........
 function changeBackground(){
 
     if(farScale >= 30){

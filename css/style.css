@@ -1,0 +1,44 @@
+
+html{
+    text-align: center;
+    align-content: center;
+  
+
+}
+
+
+.title{
+    text-align: center;
+    
+
+}
+.disclaim{
+    text-align: center;
+    font-size: 10px;
+    font-weight: bold;
+}
+.logo{
+    margin: 10px;
+}
+
+.interface{
+    margin-top: 20px;
+    background-color: #fff2d1 
+
+}
+.titleColor{
+
+    background-color: #fff2d1 ;
+
+}
+#button-addon2{
+    background-color: green;
+    color: white;
+
+}
+#info{
+    background-color: #fff2d1 ;
+}
+
+
+

@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Quise's Forcast</title>
+</head>
+
+
+
+
+
+
+<body class="container" id="background">
+    <nav class="position-absolute top-0 start-0">
+        <!-- <img class='logo' src="img/bccae0d8ec24658ba4ee9342d76e162c.png" alt=""> -->
+    </nav>
+    <main class="position-absolute top-50 start-50 translate-middle">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-sm">
+                    <!-- Empty Column -->
+                </div>
+                <div class="col-sm">
+                    <!--Title of the page -->
+                    <h1 class='title'>Marquise's Forcast!</h1>
+                    <p class="disclaim">Don't "@" me about the weather. Just use this page.</p>
+                    <div class="container">
+                        <div class="row row-cols-1">
+                            <div class="container">
+                                <div class="row">
+
+                                    <div class="col-sm">
+
+
+                                            <div id='info' class="card" style="width: 23rem">
+                                                <!-- style="width: 25rem; height: 40rem;" -->
+
+                                                <div class="interface">
+
+                                                    <div class="container">
+                                                        <div class="row">
+                                                            <div class="col-sm">
+
+                                                            </div>
+                                                            <div class="col-sm">
+
+
+                                                                <div class="input-group mb-3">
+                                                                    <input type="number" class="form-control" id="zip"
+                                                                        placeholder="zip code" aria-label="zip code"
+                                                                        aria-describedby="button-addon2"
+                                                                        style="width: 8rem">
+                                                                    <button class="btn btn-outline-secondary"
+                                                                        type="submit" id="button-addon2">Update</button>
+                                                                </div>
+
+
+                                                                <div id="cityBox" class="card"
+                                                                    style="width: 18rem; margin: 20px;">
+                                                                    <div class="card-header" style="background-color: #f7e1ab;">
+                                                                        city
+                                                                    </div>
+                                                                    <ul class="list-group list-group-flush">
+                                                                        <li id="city" class="list-group-item">
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                                <div id="TempBox" class="card"
+                                                                    style="width: 18rem; margin: 20px;">
+                                                                    <div class="card-header"
+                                                                    style="background-color: #f7e1ab;">
+                                                                        Temperature
+                                                                    </div>
+                                                                    <ul class="list-group list-group-flush">
+                                                                        <li class="list-group-item">
+                                                                            <div class="row">
+                                                                                <div id="far" class="col"></div>
+                                                                                <div id="cel" class="col order-5"></div>
+                                                                                <div id="kev" class="col order-1"></div>
+                                                                            </div>
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                                <div class="card" style="width: 18rem; margin: 20px;">
+                                                                    <div class="card-header" style="background-color: #f7e1ab;"> 
+                                                                        Condition
+                                                                    </div>
+                                                                    <ul class="list-group list-group-flush">
+                                                                        <li id="condition" class="list-group-item">
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+
+                                                            <img id="picCon" src="" alt="">
+
+
+
+                                                        </div>
+                                                        <div class="col-sm">
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+
+                                    </div>
+
+                                    
+
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="col-sm">
+            <!-- Empty Column -->
+        </div>
+
+
+
+
+
+    </main>
+    <script src="./js/main.js"></script>
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+        crossorigin="anonymous"></script>
+
+
+
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
